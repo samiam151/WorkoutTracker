@@ -17,6 +17,7 @@ namespace WorkoutTracker.Data.Models
         public DbSet<Movement> Movements { get; set; }
         public DbSet<MovementsMuscleGroups> MovementsMuscleGroups { get; set; } 
         public DbSet<MovementPattern> MovementPatterns { get; set; }
+        public DbSet<Equipment> Equipment { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder options) {
             options.UseNpgsql("Host=localhost;Database=workout_tracker;Username=postgres;Password=root");

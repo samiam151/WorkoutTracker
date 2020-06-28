@@ -22,7 +22,13 @@ namespace WorkoutTracker.Data.Extensions
                 new MovementPattern { Id = 5, Name = "Pull"},
                 new MovementPattern { Id = 6, Name = "Carry"}
             );
+
+            modelBuilder.Entity<Equipment>().HasData(
+                new Equipment { Id = 1, Name = "Barbell" },
+                new Equipment { Id = 2, Name = "Dumbell" },
+                new Equipment { Id = 3, Name = "Jump Rope" },
+                new Equipment { Id = 4, Name = "Bench" }
+            );
         }
     }
-    
 }
