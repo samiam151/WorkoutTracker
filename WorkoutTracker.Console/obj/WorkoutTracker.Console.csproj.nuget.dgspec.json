@@ -1,32 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Console/WorkoutTracker.Console.csproj": {}
+    "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Console\\WorkoutTracker.Console.csproj": {}
   },
   "projects": {
-    "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Console/WorkoutTracker.Console.csproj": {
+    "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Console\\WorkoutTracker.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Console/WorkoutTracker.Console.csproj",
+        "projectUniqueName": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Console\\WorkoutTracker.Console.csproj",
         "projectName": "WorkoutTracker.Console",
-        "projectPath": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Console/WorkoutTracker.Console.csproj",
-        "packagesPath": "/home/nsam/.nuget/packages/",
-        "outputPath": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Console/obj/",
+        "projectPath": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Console\\WorkoutTracker.Console.csproj",
+        "packagesPath": "C:\\Users\\samia\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Console\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nsam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\samia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dos-gtm/_packaging/dos-gtm/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/WorkoutTracker.Data.csproj": {
-                "projectPath": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/WorkoutTracker.Data.csproj"
+              "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\WorkoutTracker.Data.csproj": {
+                "projectPath": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\WorkoutTracker.Data.csproj"
               }
             }
           }
@@ -60,27 +63,30 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/WorkoutTracker.Data.csproj": {
+    "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\WorkoutTracker.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/WorkoutTracker.Data.csproj",
+        "projectUniqueName": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\WorkoutTracker.Data.csproj",
         "projectName": "WorkoutTracker.Data",
-        "projectPath": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/WorkoutTracker.Data.csproj",
-        "packagesPath": "/home/nsam/.nuget/packages/",
-        "outputPath": "/home/nsam/Projects/WorkoutTracker/workout-tracker-api/WorkoutTracker.Data/obj/",
+        "projectPath": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\WorkoutTracker.Data.csproj",
+        "packagesPath": "C:\\Users\\samia\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\workout-tracker\\workout-tracker-api\\WorkoutTracker.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nsam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\samia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dos-gtm/_packaging/dos-gtm/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -125,7 +131,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
