@@ -10,9 +10,9 @@
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\bin\Debug\netstandard2.0\WorkoutTracker.Data.deps.json
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\bin\Debug\netstandard2.0\WorkoutTracker.Data.dll
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\bin\Debug\netstandard2.0\WorkoutTracker.Data.pdb
-C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.csprojAssemblyReference.cache
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.AssemblyInfoInputs.cache
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.AssemblyInfo.cs
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.csproj.CoreCompileInputs.cache
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.dll
 C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.pdb
+C:\Projects\workout-tracker\workout-tracker-api\WorkoutTracker.Data\obj\Debug\netstandard2.0\WorkoutTracker.Data.csprojAssemblyReference.cache

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WorkoutTracker.Data.Models;
 using WorkoutTracker.Data.Models.Entities;
 
@@ -7,10 +8,12 @@ namespace WorkoutTracker.Data.Extensions
     public static class ModelBuilderExtensions
     {
         public static void ConfigureRelationships(this ModelBuilder modelBuilder)
-        {
+        {        
             modelBuilder.Entity<MovementsMuscleGroups>().HasKey(t => 
                 new { t.MovementId, t.MusclGroupId} 
             );
+
+            
         }
         public static void SeedData(this ModelBuilder modelBuilder)
         {
