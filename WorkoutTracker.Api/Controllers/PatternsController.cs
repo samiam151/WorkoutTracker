@@ -10,7 +10,6 @@ using WorkoutTracker.Data.Models;
 
 namespace WorkoutTracker.Api.Controllers
 {
-    [Route("api/[controller]")]
     public class PatternsController : EntityController<MovementPattern>
     {
         public PatternsController(DbContext context) : base(context)

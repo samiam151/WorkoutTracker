@@ -12,6 +12,7 @@ using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 namespace WorkoutTracker.Api.Controllers.Base
 {
     [ApiController]
+    [Route("api/[controller]/")]
     public class EntityController<T> : ControllerBase where T : Entity
     {
         protected readonly DbContext dbContext;
