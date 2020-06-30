@@ -12,8 +12,6 @@ namespace WorkoutTracker.Data.Extensions
             modelBuilder.Entity<MovementsMuscleGroups>().HasKey(t => 
                 new { t.MovementId, t.MusclGroupId} 
             );
-
-            
         }
         public static void SeedData(this ModelBuilder modelBuilder)
         {
@@ -31,6 +29,13 @@ namespace WorkoutTracker.Data.Extensions
                 new Equipment { Id = 2, Name = "Dumbell" },
                 new Equipment { Id = 3, Name = "Jump Rope" },
                 new Equipment { Id = 4, Name = "Bench" }
+            );
+
+            modelBuilder.Entity<WorkoutType>().HasData(
+                new WorkoutType { Id = 1, Name = "Full" },
+                new WorkoutType { Id = 2, Name = "Strength" },
+                new WorkoutType { Id = 3, Name = "Metabolic Conditioning" },
+                new WorkoutType { Id = 4, Name = "Active Recovery" }
             );
         }
     }

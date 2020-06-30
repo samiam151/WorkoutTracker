@@ -1,0 +1,20 @@
+﻿Workout consists of multiple Sections.
+Example of sections:
+	- Warmup Section
+	- Strength Section
+	- Metcon Section
+	- Cooldown Section
+
+	Secions have zero or more MovementSets
+		- Movement Set
+			- Movement
+			- Duration
+			- Reps
+		- Movement Set
+			- Movement
+			- Duration
+			- Reps
+
+Movements target Muscle Groups.
+Movements implement one or more Movement Patterns.
+Movements can require Equipment.

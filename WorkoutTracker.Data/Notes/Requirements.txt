@@ -1,0 +1,14 @@
+﻿Generate a workout
+	- Full
+		- Warm-Up
+		- Strength
+		- Metcon
+	- Strength
+		- Warm-Up
+		- Strength
+	- Metcon
+		- Warm-Up
+		- Metcon
+	- Active Recovery
+		- Warm-Up
+		- Recovery

@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using WorkoutTracker.Data.Extensions;
 using WorkoutTracker.Data.Models.Entities;
 
-// using WorkoutTracker.Data.Models.Entities;
 
 namespace WorkoutTracker.Data.Models
 {
@@ -18,6 +17,7 @@ namespace WorkoutTracker.Data.Models
         public DbSet<MovementsMuscleGroups> MovementsMuscleGroups { get; set; } 
         public DbSet<MovementPattern> MovementPatterns { get; set; }
         public DbSet<Equipment> Equipment { get; set; }
+        public DbSet<WorkoutType> WorkoutTypes { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder options) {
             options.UseNpgsql("Host=localhost;Database=workout_tracker;Username=postgres;Password=root");
