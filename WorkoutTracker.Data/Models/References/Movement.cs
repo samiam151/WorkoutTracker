@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using WorkoutTracker.Data.Models.Base;
-using WorkoutTracker.Data.Models.Entities;
 using WorkoutTracker.Data.Models.Interfaces;
 
 namespace WorkoutTracker.Data.Models

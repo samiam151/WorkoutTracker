@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WorkoutTracker.Data.Models;
-using WorkoutTracker.Data.Models.Entities;
 
 namespace WorkoutTracker.Data.Extensions
 {
