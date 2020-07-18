@@ -10,15 +10,15 @@ using WorkoutTracker.Data.Models;
 namespace WorkoutTracker.Data.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20200629165332_AddedDefaultValues")]
-    partial class AddedDefaultValues
+    [Migration("20200717203304_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
-                .HasAnnotation("ProductVersion", "3.1.5")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("WorkoutTracker.Data.Models.Entities.MovementsMuscleGroups", b =>
@@ -84,34 +84,34 @@ namespace WorkoutTracker.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(449),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1489),
                             IsActive = true,
                             Name = "Barbell",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(459)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1500)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(477),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1521),
                             IsActive = true,
                             Name = "Dumbell",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(478)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1523)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(480),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1525),
                             IsActive = true,
                             Name = "Jump Rope",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(481)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1526)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(482),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1527),
                             IsActive = true,
                             Name = "Bench",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 293, DateTimeKind.Utc).AddTicks(482)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1528)
                         });
                 });
 
@@ -181,82 +181,51 @@ namespace WorkoutTracker.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(7258),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(5363),
                             IsActive = true,
                             Name = "Hinge",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(7349)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(5502)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8451),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6844),
                             IsActive = true,
                             Name = "Squat",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8455)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6849)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8471),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6870),
                             IsActive = true,
                             Name = "Lunge",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8472)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6871)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8473),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6873),
                             IsActive = true,
                             Name = "Push",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8474)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6874)
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8475),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6875),
                             IsActive = true,
                             Name = "Pull",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8476)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6876)
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8477),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6878),
                             IsActive = true,
                             Name = "Carry",
-                            UpdatedAt = new DateTime(2020, 6, 29, 16, 53, 32, 291, DateTimeKind.Utc).AddTicks(8478)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6879)
                         });
-                });
-
-            modelBuilder.Entity("WorkoutTracker.Data.Models.Muscle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
-
-                    b.Property<DateTime?>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("timestamp without time zone");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("boolean");
-
-                    b.Property<int?>("MuscleGroupId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("timestamp without time zone");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MuscleGroupId");
-
-                    b.ToTable("Muscles");
                 });
 
             modelBuilder.Entity("WorkoutTracker.Data.Models.MuscleGroup", b =>
@@ -288,6 +257,66 @@ namespace WorkoutTracker.Data.Migrations
                     b.ToTable("MuscleGroups");
                 });
 
+            modelBuilder.Entity("WorkoutTracker.Data.Models.WorkoutType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("timestamp without time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WorkoutTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2446),
+                            IsActive = true,
+                            Name = "Full",
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2451)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2471),
+                            IsActive = true,
+                            Name = "Strength",
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2472)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2475),
+                            IsActive = true,
+                            Name = "Metabolic Conditioning",
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2476)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2477),
+                            IsActive = true,
+                            Name = "Active Recovery",
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2478)
+                        });
+                });
+
             modelBuilder.Entity("WorkoutTracker.Data.Models.Entities.MovementsMuscleGroups", b =>
                 {
                     b.HasOne("WorkoutTracker.Data.Models.Movement", "Movement")
@@ -313,13 +342,6 @@ namespace WorkoutTracker.Data.Migrations
                     b.HasOne("WorkoutTracker.Data.Models.MovementPattern", "Pattern")
                         .WithMany()
                         .HasForeignKey("PatternId");
-                });
-
-            modelBuilder.Entity("WorkoutTracker.Data.Models.Muscle", b =>
-                {
-                    b.HasOne("WorkoutTracker.Data.Models.MuscleGroup", null)
-                        .WithMany("MusclesWorked")
-                        .HasForeignKey("MuscleGroupId");
                 });
 #pragma warning restore 612, 618
         }

@@ -9,7 +9,6 @@ namespace WorkoutTracker.Data.Models
     public class MuscleGroup: ReferenceData, IDescribable
     {
         public string Description { get; set; }
-        public ICollection<Muscle> MusclesWorked { get; set; }
         public ICollection<MovementsMuscleGroups> MovementsMuscleGroups { get; set; }
     }
 }

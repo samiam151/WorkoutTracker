@@ -16,7 +16,7 @@ namespace WorkoutTracker.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn)
-                .HasAnnotation("ProductVersion", "3.1.5")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("WorkoutTracker.Data.Models.Entities.MovementsMuscleGroups", b =>
@@ -82,34 +82,34 @@ namespace WorkoutTracker.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9761),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1489),
                             IsActive = true,
                             Name = "Barbell",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9768)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1500)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9783),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1521),
                             IsActive = true,
                             Name = "Dumbell",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9784)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1523)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9785),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1525),
                             IsActive = true,
                             Name = "Jump Rope",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9786)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1526)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9787),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1527),
                             IsActive = true,
                             Name = "Bench",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 582, DateTimeKind.Utc).AddTicks(9788)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(1528)
                         });
                 });
 
@@ -179,82 +179,51 @@ namespace WorkoutTracker.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(8332),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(5363),
                             IsActive = true,
                             Name = "Hinge",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(8413)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(5502)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9448),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6844),
                             IsActive = true,
                             Name = "Squat",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9452)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6849)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9465),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6870),
                             IsActive = true,
                             Name = "Lunge",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9466)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6871)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9467),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6873),
                             IsActive = true,
                             Name = "Push",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9467)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6874)
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9468),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6875),
                             IsActive = true,
                             Name = "Pull",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9469)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6876)
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9470),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6878),
                             IsActive = true,
                             Name = "Carry",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 581, DateTimeKind.Utc).AddTicks(9471)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 828, DateTimeKind.Utc).AddTicks(6879)
                         });
-                });
-
-            modelBuilder.Entity("WorkoutTracker.Data.Models.Muscle", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
-
-                    b.Property<DateTime?>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("timestamp without time zone");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("boolean");
-
-                    b.Property<int?>("MuscleGroupId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("timestamp without time zone");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MuscleGroupId");
-
-                    b.ToTable("Muscles");
                 });
 
             modelBuilder.Entity("WorkoutTracker.Data.Models.MuscleGroup", b =>
@@ -315,34 +284,34 @@ namespace WorkoutTracker.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(422),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2446),
                             IsActive = true,
                             Name = "Full",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(425)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2451)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(438),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2471),
                             IsActive = true,
                             Name = "Strength",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(439)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2472)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(481),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2475),
                             IsActive = true,
                             Name = "Metabolic Conditioning",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(482)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2476)
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(483),
+                            CreatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2477),
                             IsActive = true,
                             Name = "Active Recovery",
-                            UpdatedAt = new DateTime(2020, 6, 30, 21, 2, 57, 583, DateTimeKind.Utc).AddTicks(484)
+                            UpdatedAt = new DateTime(2020, 7, 17, 20, 33, 3, 830, DateTimeKind.Utc).AddTicks(2478)
                         });
                 });
 
@@ -371,13 +340,6 @@ namespace WorkoutTracker.Data.Migrations
                     b.HasOne("WorkoutTracker.Data.Models.MovementPattern", "Pattern")
                         .WithMany()
                         .HasForeignKey("PatternId");
-                });
-
-            modelBuilder.Entity("WorkoutTracker.Data.Models.Muscle", b =>
-                {
-                    b.HasOne("WorkoutTracker.Data.Models.MuscleGroup", null)
-                        .WithMany("MusclesWorked")
-                        .HasForeignKey("MuscleGroupId");
                 });
 #pragma warning restore 612, 618
         }
