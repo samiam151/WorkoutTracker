@@ -3,9 +3,8 @@ Example of sections:
 	- Warmup Section
 	- Strength Section
 	- Metcon Section
-	- Cooldown Section
 
-	Secions have zero or more MovementSets
+	Sections have zero or more MovementSets
 		- Movement Set
 			- Movement
 			- Duration
